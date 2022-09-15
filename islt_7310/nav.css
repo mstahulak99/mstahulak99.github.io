@@ -3,7 +3,7 @@ Refrences:
 https://www.w3schools.com/css/css_navbar_horizontal.asp
 */
 
-ul {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -11,11 +11,11 @@ ul {
   background-color: #000000;
 }
 
-li {
+nav li {
   float: left;
 }
 
-li a {
+nav li a {
   display: block;
   color: white;
   text-align: center;
@@ -24,6 +24,6 @@ li a {
 }
 
 
-li a:hover {
+nav li a:hover {
   background-color: #46505e;
 }
