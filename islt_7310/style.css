@@ -2,6 +2,37 @@ main{
     color: #003366;
     float: left;
 }
+
 footer{
     float: left;
+}
+
+body{
+background-color: darkgray;
+}
+
+h2{
+border-bottom: 3px solid white;
+font-size: 22px;
+}
+
+#container{
+width: 1000px;
+height: 1000px;
+padding: 15px;
+border-radius: 25px;
+margin-left: 600px;
+background-color: dimgray;
+color: white;
+}
+
+ul{
+font-size: 18px;
+list-style: none;
+}
+.firstletter{
+    color: deepskyblue;
+}
+.indent{
+    margin-left: 40px;
 }
