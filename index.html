@@ -1,43 +1,28 @@
-<!--
-*****************************************************************************
-Title:  Title page
-
-Use:  To create a great title page and welcome users to my website
-
-Author:  Matt Stahulak  
-
-School/Term:  University of Missouri, Fall 2022
-
-Developed: 9/8/2022
-
-Tested:  Sep 1, 2022; Passed on Firefox and Chrome browsers.
-******************************************************************************
--->
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
     <meta charset="utf-8">
-    <title>Home Page</title>
+    <title>References</title>
     <link href="style.css" rel="stylesheet">
     <link href="nav.css" rel="stylesheet">
 </head>
-<body>
-<nav>
-    <ul>
-        <li><a href="../islt_7310/index.html">Home</a></li>
-        <li><a href="../islt_7310/about.html">About</a></li>
-        <li><a href="../islt_7310/references.html">Learn</a>
-            <ul>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 2</a></li>
-                <li><a href="#">Link 3</a></li>
-            </ul>
-        </li>
-        <li><a href="../islt_7310/#learn.html">References</a></li>
-        <li><a href="../islt_7310/#learn.html">Contact</a></li>
-            
-    </ul>
-</nav>
+   <body>
+<nav class="navbar">
+         <ul>
+            <li><a href="../islt_7310/index.html">Home</a></li>
+            <li><a href="../islt_7310/about.html">About</a></li>
+            <li class = "dropdown">
+               <a href="../islt_7310/learn.html">Learn</a>
+               <ul>
+                  <li><a href="#">Link 1</a></li>
+                  <li><a href="#">Link 2</a></li>
+                  <li><a href="#">Link 3</a>
+               </ul>
+            </li>
+            <li><a href="../islt_7310/references.html">References</a></li>
+            <li><a href="../islt_7310/#learn.html">Contact</a></li>
+         </ul>
+      </nav>
 <main>
 <h1>Welcome to my webpage! The objective of this web page is to provide basic knowledge of the Supply Chain and Logistics industry and entail what day-to-day work looks like for new interns. 
 </h1>
