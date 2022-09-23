@@ -1,27 +1,60 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-    <meta charset="utf-8">
-    <title>Lets Learn Page</title>
-    <link href="style.css" rel="stylesheet">
-    <link href="nav.css" rel="stylesheet">
-</head>
-<body>
-<nav>
-    <ul>
-        <li><a href="../islt_7310/index.html">Home</a></li>
-        <li><a href="../islt_7310/about.html">About</a></li>
-        <li><a href="../islt_7310/#learn.html">Learn</a>
-            <ul>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 2</a></li>
-                <li><a href="#">Link 3</a></li>
-            </ul>
-        </li>
-        <li><a href="../islt_7310/#learn.html">References</a></li>
-        <li><a href="../islt_7310/#learn.html">Contact</a></li>
-            
-    </ul>
-</nav>
-</body>
+   <head>
+      <meta charset="utf-8">
+      <title>Learn Page</title>
+      <link href="nav.css" rel="stylesheet">
+      <link href="style.css" rel="stylesheet">
+   </head>
+   <body>
+      <nav class="navbar">
+         <ul>
+            <li><a href="../islt_7310/index.html">Home</a></li>
+            <li><a href="../islt_7310/about.html">About</a></li>
+            <li class = "dropdown">
+               <a href="../islt_7310/references.html">Learn</a>
+               <ul>
+                  <li><a href="#">Link 1</a></li>
+                  <li><a href="#">Link 2</a></li>
+                  <li><a href="#">Link 3</a>
+               </ul>
+            </li>
+            <li><a href="../islt_7310/#learn.html">References</a></li>
+            <li><a href="../islt_7310/#learn.html">Contact</a></li>
+         </ul>
+      </nav>
+      <div id="wrapper">
+         <div class="column">
+            <div class="video">
+               <img class="picture" src="../islt_7310/youtubelogo.jpg" alt="youtubelogo">
+            </div>
+            <div class="textunder">
+               <h1><span class="titlestyle">Video 1: Introduction to CargoWise </span></h1>
+               <p>Everything you need to know!</p>
+               <a href="google.com">Link to youtube video</a>
+            </div>
+         </div>
+         <div class="column">
+            <div class="video">
+               <img class="picture" src="../islt_7310/youtubelogo.jpg" alt="youtubelogo">
+            </div>
+            <div class="textunder">
+               <h1><span class="titlestyle">Video 2: Tracking and Tracing </span></h1>
+               <p>How to track and trace to keep your files up to date</p>
+               <a href="google.com">Link to youtube video</a>
+            </div>
+         </div>
+         <div class="column">
+           <div class="video">
+               <img class="picture" src="../islt_7310/youtubelogo.jpg" alt="youtubelogo">
+            </div>
+            <div class="textunder">
+               <h1><span class="titlestyle">Video 3: Payables </span></h1>
+               <p>How to pay files the right way</p>
+               <a href="google.com">Link to youtube video</a>
+            </div>
+         </div>
+      </div>
+       <footer>Matt Stahulak mtsxhc@umsystem.edu All Rights Reserved.</footer>
+   </body>
 </html>
