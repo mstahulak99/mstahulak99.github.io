@@ -196,5 +196,18 @@ hr {
 
 footer {
     margin-top: 30px;
-    background-image: url("../islt_7310/footerbackground.png")
+    background-image: url("../islt_7310/footerbackground.png");
+    
+}
+
+.picbig {
+    position: absolute;
+    width:0px;
+    -webkit-transition:width 0.3s linear 0s;
+    transition:width 0.3s linear 0s;
+    z-index:10;
+}
+
+.pic:hover + .picbig {
+    width: 20px;
 }
