@@ -15,7 +15,6 @@
 
 .navbar ul li > ul{
     display: none;
-    flex-direction: none;
 }
 
 .navbar ul li > ul li{
@@ -49,3 +48,12 @@
     background: #4a4848;
 }
 
+@media print {
+    *{
+        background: transparent !important;
+        color: #000 !important;
+    }
+    nav {
+        display: none;
+    }
+}
