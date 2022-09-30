@@ -110,7 +110,7 @@ hr {
     border-top: 2px solid slategray;
 }
 
-#portrait{
+.portrait{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -120,13 +120,14 @@ hr {
     border: 10px solid white;
     max-width: 40%;
 }
-#nameunderpicture {
+.nameunderpicture {
     position: relative;
     top: 25px;
     text-align: center;
     margin: 5px;
     font-size: 40px;
     color: white;
+    font-family: "Poppins", sans-serif;
 }
 
 
@@ -138,14 +139,16 @@ hr {
     color: black;
     background-color: lightgray;
     border: 5px solid black;
+    font-family: "Roboto", sans-serif;
 }
-#nameunderunderpicture{
+.nameunderunderpicture{
     position: relative;
     top: 25px;
     text-align: center;
     margin: 5px;
     font-size: 20px;
     color: white;
+    font-family: "Poppins", sans-serif;
 }
 .references{
     position: relative;
@@ -170,3 +173,25 @@ hr {
     width: 50%;
     height: 100%;
 }
+
+@media print {
+    *{
+        background: transparent !important;
+        color: #000 !important;
+        text-align: left !important;
+        margin: 1 
+    }
+    .iframe-container, .portrait {
+        display: none;
+        font-family: "Roboto", sans-serif;
+    }
+    
+    .description {
+        border: none;
+        font-family: sans-serif;
+    }
+    
+    
+    @page { size:8.5in 11in; margin: 1in }
+}
+
