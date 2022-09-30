@@ -194,3 +194,7 @@ hr {
     @page { size:8.5in 11in; margin: 1in }
 }
 
+footer {
+    margin-top: 30px;
+    background-image: url("../islt_7310/footerbackground.png")
+}
